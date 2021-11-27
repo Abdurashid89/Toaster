@@ -4,16 +4,17 @@ plugins {
     id 'maven-publish'
 }
 group = 'com.github.jitpack'
-version = '0.0.5'
+version = '0.0.6'
 
 afterEvaluate {
     publishing {
         publications {
+            // Creates a Maven publication called "release".
             release(MavenPublication) {
 //                from components.release
                 groupId = 'com.github.jitpack'
-                artifactId = "android-example"
-                version = '0.0.5'
+                artifactId = 'android-example'
+                version = '0.0.6'
             }
         }
     }
