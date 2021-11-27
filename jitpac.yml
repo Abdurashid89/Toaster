@@ -1,0 +1,3 @@
+- openjdk11
+before_instrall:
+  -./scripts/prepareJitpackEnvironment.sh
