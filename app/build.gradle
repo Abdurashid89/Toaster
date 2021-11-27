@@ -12,8 +12,8 @@ afterEvaluate {
             release(MavenPublication) {
 //                from components.release
                 groupId = 'com.github.jitpack'
-                artifactId = "com.abdurashid.toaster"
-                version = '0.0.3'
+                artifactId = "android-example"
+                version = '0.0.4'
             }
         }
     }
