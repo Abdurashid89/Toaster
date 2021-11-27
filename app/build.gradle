@@ -4,7 +4,7 @@ plugins {
     id 'maven-publish'
 }
 group = 'com.github.jitpack'
-version = '0.0.3'
+version = '0.0.5'
 
 afterEvaluate {
     publishing {
@@ -13,7 +13,7 @@ afterEvaluate {
 //                from components.release
                 groupId = 'com.github.jitpack'
                 artifactId = "android-example"
-                version = '0.0.4'
+                version = '0.0.5'
             }
         }
     }
@@ -22,7 +22,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.abdurashid.toaster"
+//        applicationId "com.abdurashid.toaster"
         minSdk 21
         targetSdk 31
         versionCode 1
